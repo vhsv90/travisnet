@@ -3,12 +3,11 @@ using Xunit;
 
 namespace unit_test
 {
-    public class UnitTest1
+    public class CalculatorTest
     {
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
