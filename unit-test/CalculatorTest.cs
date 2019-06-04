@@ -39,5 +39,18 @@ namespace unit_test
             Assert.True(result == resultValidated);
         }
 
+        [Fact]
+        public void SumOperationWrongData()
+        {
+            int num1 = 10;
+            int num2 = 40;
+
+            int resultValidated = 49;
+
+            var result = calculator.Sum(num1, num2);
+
+            Assert.True(result != resultValidated);
+        }
+
     }
 }
